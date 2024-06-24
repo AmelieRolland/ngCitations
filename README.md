@@ -1,27 +1,9 @@
 # NgCitations
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+### Exercice Angular
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ - creation d'un mock avec un tableau d'objets (citations)
+ - création d'un service avec des methodes CRUD (add et delete)
+ - Page d'accueil : générateur aléatoire de citations (avec Math.random qui va selectionner un id aléatoirement)
+ - Page New quote : formulaire pour intégrer une new quote
+ - Page delete : Liste toutes les citations (dont celles nouvellement enregistrées via le formulaire) avec un bouton pour supprimer.

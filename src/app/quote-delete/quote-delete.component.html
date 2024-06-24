@@ -1,0 +1,9 @@
+<div *ngFor="let quote of quotes" class="card mb-3">
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>{{ quote.quote }}</p>
+        <footer class="blockquote-footer">{{ quote.author }}</footer>
+      </blockquote>
+      <button class="btn btn-danger mt-2" (click)="deleteQuote(quote.id)">Delete</button>
+    </div>
+  </div>

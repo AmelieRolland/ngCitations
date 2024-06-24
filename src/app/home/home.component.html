@@ -1,0 +1,20 @@
+<section class="container">
+    <h1> Are you ready for a new quote ?!</h1>
+
+    <button (click)="generateQuote()">Get a quote</button>
+
+    <div *ngIf="quote" class="row d-flex justify-content-center">
+
+        <div class="col-lg-6">
+            <img [src]="quote.img" width="400px" height="500px" alt="chat">
+        </div>
+
+        <div class="col-lg-6">
+            <div >
+                <p>{{ quote.quote }}</p>
+                <p>- {{ quote.author }}</p>
+            </div>
+        </div>
+
+    </div>
+</section>

@@ -1,15 +1,15 @@
-<section class="container">
+<section class="container pt-5">
     <h1> Are you ready for a new quote ?!</h1>
 
-    <button (click)="generateQuote()">Get a quote</button>
+    <button class="btn btn-primary mt-5" (click)="generateQuote()">Get a quote</button>
 
-    <div *ngIf="quote" class="row d-flex justify-content-center">
+    <div *ngIf="quote" class="row d-flex justify-content-center mx-auto h-100 pt-5">
 
         <div class="col-lg-6">
             <img [src]="quote.img" width="400px" height="500px" alt="chat">
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 h-100 align-self-center">
             <div >
                 <p>{{ quote.quote }}</p>
                 <p>- {{ quote.author }}</p>

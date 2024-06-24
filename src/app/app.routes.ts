@@ -6,5 +6,7 @@ import { QuoteDeleteComponent } from './quote-delete/quote-delete.component';
 export const routes: Routes = [
     { path: '', component : HomeComponent },
     { path: 'newquote', component : NewQuoteComponent},
-    { path: 'delete', component : QuoteDeleteComponent}
+    { path: 'delete', component : QuoteDeleteComponent},
+    { path: '**', component : HomeComponent }
+
 ];
